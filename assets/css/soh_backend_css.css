@@ -1,0 +1,223 @@
+label.soh_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+img.soh_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.soh-tab-content{
+	display: none;
+}
+.soh-tab-content.soh-current{
+	display: block;
+}
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li.tab-link {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 10px;
+    background-color: #2271b1!important;
+    color: #fff!important;
+    font-size: 13px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    transition: .3s;
+    box-shadow: 2px 2px 5px 0px transparent;
+}
+li.tab-link.soh-current {
+    background-color: #fff!important;
+    color: #2271b1!important;
+    box-shadow: 2px 2px 5px 0px #2271b1;
+}
+div.soh-tab-content {
+    padding: 10px;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid #6fbfff;
+    margin-bottom: 15px;
+}
+table.data_table {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.table_title_header h3 {
+    color: #fff;
+    background-color: #2271b1;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+.soh-tab-content table.data_table tr.soh_table_inner_tr th.soh_table_inner_th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 20%;
+    font-weight: 600;
+    display: inline-block;
+}
+.soh-tab-content table.data_table tr.soh_table_inner_tr td.soh_table_inner_td {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 70%;
+    display: inline-block;
+}
+span.soh_store_status_control {
+    background-color: green;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    font-style: normal;
+    line-height: 1;
+}
+img.soh_logo_image {
+    display: inline-block;
+    width: 100px;
+    padding-top: 15px;
+}
+.soh_table_inner_tr div.soh_period,.soh_table_inner_tr div.soh_options {
+    padding-left: 30px;
+    margin: 15px 0;
+}
+span.soh_store_status_note {
+    padding-left: 15px;
+}
+table.data_table tbody.soh_table_body {
+    display: inline-block;
+    width: 100%;
+}
+tr.soh_table_inner_tr {
+    display: inline-block;
+    width: 100%;
+}
+.soh_table_inner_tr div.soh_period table,
+.soh_table_inner_tr div.soh_period table thead,
+.soh_table_inner_tr div.soh_period table tbody {
+    display: inline-block;
+    width: 100%;
+}
+.soh_table_inner_tr div.soh_period table thead tr th,
+.soh_table_inner_tr div.soh_period table tbody tr td {
+    display: inline-block;
+    width: 20%;
+}
+.soh_day_close_monday,
+.soh_day_close_tuesday,
+.soh_day_close_wednesday,
+.soh_day_close_thursday,
+.soh_day_close_friday,
+.soh_day_close_saturday,
+.soh_day_close_sunday {
+    color: #ff0202 !important;
+    border-color: #ff0202 !important;
+    padding: 0 11px !important;    
+}
+.soh_table_inner_tr div.soh_period table thead tr,.soh_table_inner_tr div.soh_period table tbody tr {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+.soh_table_inner_tr div.soh_period table tbody {
+    margin-top: 15px;
+}
+
+/* Support, Ratting and Donate links css */
+.soh_rateus_notice, .soh_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+    margin-bottom: 12px;
+}
+.soh_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.soh_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.soh_rateus_notice h3, .soh_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.soh_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+img.soh_review_icon {
+    width: 50px;
+    height: auto;
+}
+.soh_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin-top: 15px;
+}
+.soh_donate_main img {
+    height: 32px;
+}
+.soh_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.soh_rateus_notice label,.soh_support_notice label {
+    font-size: 16px;
+}
+.soh_rateus_notice a,.soh_support_notice a {
+    color: #fff;
+}
+.soh-container .wrap h2 {
+    margin-bottom: 15px;
+}
+
+.soh_svg_section svg {
+    display: inline-block;
+    width: 30px;
+    height: auto;
+    margin: 0px 20px 0px 5px;
+}
+.soh_table_inner_tr div.soh_period table thead tr th:nth-child(3), .soh_table_inner_tr div.soh_period table thead tr th:nth-child(4) {
+    width: 10%;
+}
+span.soh_imp_note {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px 0px 15px 0px;
+    font-size: 16px;
+    font-style: italic;
+}
+span.soh_imp_note a {
+    font-weight: bold;
+}
+span.soh_imp_note strong {
+    color: #ff0000;
+}
